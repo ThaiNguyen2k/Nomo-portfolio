@@ -1,0 +1,17 @@
+import React from "react";
+import "../styles.css";
+
+const Skills = () => {
+  return (
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        {/* Thêm các kỹ năng khác nếu cần */}
+      </ul>
+    </section>
+  );
+};
+
+export default Skills;

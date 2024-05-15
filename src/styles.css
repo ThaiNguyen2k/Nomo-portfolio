@@ -1,0 +1,134 @@
+/* Reset mặc định của các trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.App {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Định dạng tiêu đề và điều hướng */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Toggle switch */
+.toggle-container {
+    position: relative;
+    width: 60px;
+    height: 30px;
+}
+
+.toggle-switch {
+    display: none;
+}
+
+.toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-label:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.toggle-switch:checked+.toggle-label {
+    background-color: #333;
+}
+
+.toggle-switch:checked+.toggle-label:before {
+    transform: translateX(30px);
+}
+
+/* Định dạng các phần */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.project,
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive cho các thiết bị nhỏ hơn */
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .toggle-container {
+        margin-top: 10px;
+    }
+}
