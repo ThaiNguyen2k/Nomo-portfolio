@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nomo-portfolio/static/css/main.60b261a7.css",
+    "main.js": "/nomo-portfolio/static/js/main.577423ff.js",
+    "static/js/453.b0ba35b2.chunk.js": "/nomo-portfolio/static/js/453.b0ba35b2.chunk.js",
+    "index.html": "/nomo-portfolio/index.html",
+    "main.60b261a7.css.map": "/nomo-portfolio/static/css/main.60b261a7.css.map",
+    "main.577423ff.js.map": "/nomo-portfolio/static/js/main.577423ff.js.map",
+    "453.b0ba35b2.chunk.js.map": "/nomo-portfolio/static/js/453.b0ba35b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b261a7.css",
+    "static/js/main.577423ff.js"
+  ]
+}
