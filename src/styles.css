@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 100px;
 }
 
 nav ul {
@@ -69,6 +69,10 @@ nav ul li a {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+#contact h2+p a  {
+    color: #3348ff;
 }
 
 .toggle-label:before {
