@@ -21,6 +21,16 @@ body {
     color: #fff;
 }
 
+.App div p {
+    font-size: 24px;
+    padding: 0 10% 24px 10%;
+}
+
+.App h2 {
+    font-size: 50px;
+    padding: 0 10% 24px 10%;
+}
+
 /* Định dạng tiêu đề và điều hướng */
 header {
     display: flex;
@@ -40,6 +50,8 @@ nav ul {
 
 nav ul li {
     margin-left: 20px;
+    font-size: 30px;
+    color: aquamarine;
 }
 
 nav ul li a {
@@ -71,7 +83,7 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-#contact h2+p a  {
+#contact h2+p a {
     color: #3348ff;
 }
 
@@ -116,11 +128,20 @@ footer {
     margin-top: 20px;
 }
 
+#about div p {
+    font-family: SoftieFont;
+    font-weight: 900;
+}
+
 /* Responsive cho các thiết bị nhỏ hơn */
 @media (max-width: 767px) {
     header {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    header h1 {
+        margin: 0 auto;
     }
 
     nav ul {
@@ -135,5 +156,13 @@ footer {
 
     .toggle-container {
         margin-top: 10px;
+    }
+
+    .App h2 {
+        font-size: 35px;
+    }
+
+    #about div p {
+        font-size: 20px;
     }
 }
