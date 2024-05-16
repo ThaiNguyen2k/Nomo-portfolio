@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nomo-portfolio/static/css/main.45c3cada.css",
-    "main.js": "/nomo-portfolio/static/js/main.577423ff.js",
+    "main.css": "/nomo-portfolio/static/css/main.572752bd.css",
+    "main.js": "/nomo-portfolio/static/js/main.56ddede0.js",
     "static/js/453.b0ba35b2.chunk.js": "/nomo-portfolio/static/js/453.b0ba35b2.chunk.js",
     "static/media/SFMonoLigaturized-Bold.ttf": "/nomo-portfolio/static/media/SFMonoLigaturized-Bold.70ca91f4c406e1a5b29e.ttf",
     "static/media/PoetsenOne-Regular.ttf": "/nomo-portfolio/static/media/PoetsenOne-Regular.22ae511e03fc2ed8d264.ttf",
@@ -11,12 +11,12 @@
     "static/media/SVN-Rebahan.otf": "/nomo-portfolio/static/media/SVN-Rebahan.324ba93e5ed1c9352b1d.otf",
     "static/media/SVN-MissionX.otf": "/nomo-portfolio/static/media/SVN-MissionX.f366c9e7c52a27dac65d.otf",
     "index.html": "/nomo-portfolio/index.html",
-    "main.45c3cada.css.map": "/nomo-portfolio/static/css/main.45c3cada.css.map",
-    "main.577423ff.js.map": "/nomo-portfolio/static/js/main.577423ff.js.map",
+    "main.572752bd.css.map": "/nomo-portfolio/static/css/main.572752bd.css.map",
+    "main.56ddede0.js.map": "/nomo-portfolio/static/js/main.56ddede0.js.map",
     "453.b0ba35b2.chunk.js.map": "/nomo-portfolio/static/js/453.b0ba35b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c3cada.css",
-    "static/js/main.577423ff.js"
+    "static/css/main.572752bd.css",
+    "static/js/main.56ddede0.js"
   ]
 }
